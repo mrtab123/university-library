@@ -9,6 +9,7 @@ import BorrowBook from "./BorrowBook";
 
 interface Props extends Book {
   userId: string;
+  
 }
 const BookOverview = async ({
   title,
@@ -22,6 +23,7 @@ const BookOverview = async ({
   coverUrl,
   id,
   userId,
+ 
 }: Props) => {
   const [user] = await db
     .select()

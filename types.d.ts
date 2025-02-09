@@ -10,8 +10,7 @@ interface Book {
   coverColor: string;
   coverUrl: string;
   videoUrl: string;
-  summary: string;
-  isLoanedBook: boolean;
+  summary: string;  
   createdAt: Date | null;
 }
 
@@ -27,7 +26,7 @@ interface User{
   lastActivityDate: Date | null; 
   createdAt: Date
   
-}
+}s
 
 
 
