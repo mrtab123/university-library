@@ -23,7 +23,7 @@ interface User{
   universityCard: string;
   status: string;
   role: string;
-  lastActivityDate: Date | null; 
+  lastActivityDate: string; 
   createdAt: Date
   
 }s
