@@ -1,0 +1,43 @@
+npx create-next-app@latest
+npx shadcn@latest init -d
+
+npx shadcn@latest add button
+
+npx shadcn@latest add form
+npx shadcn@latest add input
+IMAGEKIT PASS : tHIRTYONE123
+npm install imagekitio-next
+npm install imagekit
+ npx shadcn@latest add toast
+npm i drizzle-orm
+npm i -D drizzle-kit
+npm i @neondatabase/serverless
+npm i dotenv
+npx drizzle-kit generate
+npx drizzle-kit migrate
+npm run db:studio
+
+npm install next-auth@beta bcryptjs --legacy-peer-deps
+npx auth secret
+npm i --save-dev @types/bcryptjs --legacy-peer-deps
+
+to solve bcrypte issue
+npm install node-gyp -g
+npm install bcrypt -g
+npm install bcrypt --save
+
+npx shadcn@latest add avatar
+
+npx shadcn@latest add toast
+npm install @upstash/ratelimit
+npm install @upstash/redis --legacy-peer-deps
+npm i react-colorful
+npx shadcn@latest add textarea
+npm run db:generate
+ npm run db:migrate
+npm run seed
+
+npm install dayjs
+npx shadcn@latest add table
+npx shadcn@latest add input
+
