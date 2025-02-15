@@ -56,9 +56,7 @@ const FileUpload = ({
   value,
 }: Props) => {
   const ikUploadRef = useRef(null);
-  const [file, setFile] = useState<{ filePath: string | null }>({
-    filePath: value ?? null,
-  });
+  const [file, setFile] = useState<{ filePath: string} | null >(null);
   const [progress, setProgress] = useState(0);
 
   const styles = {
