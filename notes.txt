@@ -41,3 +41,16 @@ npm install dayjs
 npx shadcn@latest add table
 npx shadcn@latest add input
 
+
+
+NEXT_PUBLIC_IMAGEKIT_URL_ENDPOINT=https://ik.imagekit.io/mrtabs
+NEXT_PUBLIC_IMAGEKIT_PUBLIC_KEY=public_iyaOSGvzEzeJpgoIGA7jjv0UbZg=
+IMAGEKIT_PRIVATE_KEY=private_7DNA4krycGLaLSY6r0k5WRnmDH8=
+
+NEXT_PUBLIC_API_ENDPOINT=http://localhost:3000
+
+DATABASE_URL=postgresql://neondb_owner:npg_paTU8yLqOmG3@ep-crimson-dream-a1egqfha-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require
+
+AUTH_SECRET="j73c6ouSrsKq/g/H5eUX3F3spv7joUIJvXGkYdvA2vA=" 
+UPSTASH_REDIS_URL=https://internal-sparrow-11462.upstash.io 
+UPSTASH_REDIS_TOKEN=ASzGAAIjcDFlZmU0Y2JhNjM0Yzk0ODAxYWRjODM2MDgwMjQ3Mzc4M3AxMA
